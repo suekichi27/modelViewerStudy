@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height initial-scale=1.0">
+        <title>modelViewerStudy</title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <style>
+            body {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            model-viewer {
+                width: 99vw;
+                height: 98vh;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <model-viewer alt="fish-got-cut" src="./models/scene.gltf" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="./posterTryOut.webp" seamless-poster shadow-intensity="1" camera-controls enable-pan></model-viewer>
+    </body>
+</html>
