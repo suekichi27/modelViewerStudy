@@ -21,6 +21,9 @@
         </style>
     </head>
     <body>
-        <model-viewer alt="fish-got-cut" src="./models/scene.gltf" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" poster="./posterTryOut.webp" seamless-poster shadow-intensity="1" camera-controls enable-pan></model-viewer>
+        <model-viewer alt="fish-got-cut" src="./models/scene.gltf" ar ar-modes="webxr" environment-image="neutral" poster="./posterTryOut.webp" seamless-poster shadow-intensity="1" camera-controls enable-pan xr-environment></model-viewer>
+        <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; left: 16px; ">
+            👋 Activate AR
+        </button>
     </body>
 </html>
